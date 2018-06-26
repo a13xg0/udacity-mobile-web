@@ -13,10 +13,13 @@ I've left some boilerplate below for you.
 */
 
 body {
-
+width: 50em;
+margin: auto;
 }
 
 article {
+	width: 50em;
+	margin: auto;
 
 }
 
@@ -25,5 +28,18 @@ h1 {
 }
 
 img {
+	width: 100%;
+}
 
+img.inline {
+	width: auto;
+}
+
+figure {
+	margin: 0;
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
 }
