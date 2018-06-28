@@ -1,0 +1,45 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+width: 50em;
+margin: auto;
+}
+
+article {
+	width: 50em;
+	margin: auto;
+
+}
+
+h1 {
+
+}
+
+img {
+	max-width: 100%;
+}
+
+img.inline {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+}
