@@ -1,16 +1,10 @@
-/*
+@import url(http://weloveiconfonts.com/api/?family=zocial);
 
-Your styles go here!
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
 
-Hint! You'll probably want to start by styling:
-  * <body>
-  * <article>
-  * <h1>
-  * <img>
-
-I've left some boilerplate below for you.
-
-*/
 
 body {
 width: 50em;
@@ -42,4 +36,24 @@ figure {
 figcaption {
 	text-align: center;
 	font-style: italic;
+}
+
+.social {
+	text-align: right;
+	text-shadow: 3px 3px 3px light-gray;
+}
+
+.social a {
+	color: black;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 24px;
+}
+
+.social a:visited {
+	color: black;
+}
+
+.social a:hover {
+	color: gray;
 }
